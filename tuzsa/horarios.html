@@ -1,0 +1,42 @@
+<HTML>
+	<HEAD>
+		<title>Tuzsa</title>
+		<meta content="width = 300, user-scalable = no" name="viewport"/>
+		
+		<link rel="apple-touch-icon" href="./images/logoTuzsa.png"/>		
+		<link rel="shortcut icon" href="./images/logoTuzsa.png" type="image/x-icon">
+		
+		<script>
+			function cargaHorarios(){
+				document.getElementById("horarioFrame").src = "http://www.tuzsa.es/tuzsa_frm_esquemaparadatime.php?poste=" + getParameter('poste');
+				setTimeout(function(){window.scrollTo(0, 1);}, 100);
+			}
+			
+			function getParameter(parameter){				
+				var url = location.href;
+				var index = url.indexOf("?");
+				index = url.indexOf(parameter,index) + parameter.length;
+				if (url.charAt(index) == "="){
+					var result = url.indexOf("&",index);
+						if (result == -1){result=url.length;};						
+						return(url.substring(index + 1,result));
+				}
+			} 					
+		</script>
+	</HEAD>
+	
+	<BODY onload="cargaHorarios();">		
+		<iframe id="horarioFrame" src="" width="307" height="450">
+		</iframe>
+		
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			var pageTracker = _gat._getTracker("UA-5505774-1");
+			pageTracker._trackPageview();
+		</script>
+		
+	</BODY>
+</HTML>
