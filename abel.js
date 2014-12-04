@@ -8,10 +8,8 @@ function loadPhotoArray(){
 							{o: raiz+"3615/3313269321_d60c8e67a7.jpg", m: new Image()},
 							{o: raiz+"3454/3316761729_2b5af8302b.jpg", m: new Image()},
 							{o: raiz+"3577/3319342003_f09cd410be.jpg", m: new Image()},
-							{o: raiz+"3656/3320222236_17a4282b73.jpg", m: new Image()},
 							{o: raiz+"3348/3316762161_7b6b0d50ac.jpg", m: new Image()},
 							{o: raiz+"3441/3316761329_1c9236fed6.jpg", m: new Image()},
-							{o: raiz+"3658/3317586652_b9f6c800e2.jpg", m: new Image()},
 							{o: raiz+"3611/3314095962_7efb8fa299.jpg", m: new Image()},
 							{o: raiz+"3649/3314118858_889256bda9.jpg", m: new Image()},
 							{o: raiz+"3325/3314095668_a7fd93e08c.jpg", m: new Image()},
@@ -32,9 +30,6 @@ function loadPhotoArray(){
 							{o: raiz+"2552/3839588650_d5c2bbdf5b.jpg", m: new Image()},
 							{o: raiz+"3657/3322621724_5c3b0f6853.jpg", m: new Image()},
 							{o: raiz+"3548/3660425909_dd7ebae1fd.jpg", m: new Image()},
-						 	{o: raiz+"3370/3317586244_cd0380ce64.jpg", m: new Image()},
-						 	{o: raiz+"3652/3320757138_f5218a59c2.jpg", m: new Image()},
-						 	{o: raiz+"3567/3320865096_e173525d52.jpg", m: new Image()},
 							{o: raiz+"3580/3320074663_c0ae45a47d.jpg", m: new Image()}
 						);
 
